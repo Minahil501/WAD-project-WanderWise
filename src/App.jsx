@@ -9,6 +9,8 @@ import Dashboard from './pages/Dashboard';
 import TourPlanner from './pages/TourPlanner';
 import HotelBooking from './pages/HotelBooking';
 import Checkout from './pages/Checkout';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
               <Route path="/tour-planner" element={<TourPlanner />} />
               <Route path="/hotels" element={<HotelBooking />} />
               <Route path="/checkout" element={<Checkout />} />
+              <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+
             </Routes>
           </main>
           <Footer />
