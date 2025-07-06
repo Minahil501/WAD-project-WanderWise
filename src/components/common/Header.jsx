@@ -35,7 +35,7 @@ const Header = () => {
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
+          {/*  Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
@@ -52,7 +52,7 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* User Menu */}
+          {/*  Menu */}
           <div className="flex items-center space-x-4">
             {user ? (
               <div className="flex items-center space-x-3">

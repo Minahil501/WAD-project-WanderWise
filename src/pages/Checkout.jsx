@@ -31,7 +31,7 @@ const Checkout = () => {
 
   const { currentBooking, selectedHotel } = bookingState;
 
-  // Calculate pricing
+  //  pricingS
   const calculateDuration = () => {
     if (!currentBooking.startDate || !currentBooking.endDate) return 1;
     const start = new Date(currentBooking.startDate);
